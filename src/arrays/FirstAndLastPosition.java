@@ -9,7 +9,7 @@ public class FirstAndLastPosition {
         return new int[]{first, last};
     }
 
-    // Find first occurrence of target
+    // Find first occurrence of target.
     private static int findFirst(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         int ans = -1;
